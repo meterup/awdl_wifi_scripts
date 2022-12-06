@@ -9,7 +9,7 @@ case $choice in
 *) exit ;;
 esac
 
-sudo echo "Installing ventura_wifi_fix.sh in your home directory. This will run in background."
+sudo echo "Installing ventura_disable_awdl.sh in your home directory. This will run in background."
 
 curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/ventura_disable_awdl.sh > ~/ventura_disable_awdl.sh
 chmod u+x ~/ventura_disable_awdl.sh
