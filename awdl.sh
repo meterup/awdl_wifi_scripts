@@ -12,5 +12,3 @@ curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/main/ventura
 chmod u+x ~/ventura_disable_awdl.sh
 
 sudo bash ~/ventura_disable_awdl.sh > /dev/null &
-
-rm ~/ventura_disable_awdl.sh
