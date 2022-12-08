@@ -6,7 +6,7 @@
 	<string>com.meter.wifi.awdl</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/abhijeet/disable_awdl.sh</string>
+		<string>/Users/YOUR_USERNAME/disable_awdl.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
