@@ -1,4 +1,4 @@
-See https://www.meter.com/mac-osx-awdl_psa for more context. This script will disable AWDL (Apple Wireless Direct Link)
+See https://www.meter.com/mac-osx-awdl-psa for more context. This script will disable AWDL (Apple Wireless Direct Link)
 in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 
 # Usage
