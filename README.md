@@ -15,4 +15,4 @@ in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 
 1. On your Mac, open the Terminal app.
 2. Run: 
-```sudo bash <(curl -sL https://www.meter.com/awdl-daemon.sh)```
+```bash <(curl -sL https://www.meter.com/awdl-daemon.sh)```
