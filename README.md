@@ -23,5 +23,5 @@ curl https://github.com/meterup/awdl_wifi_scripts/blob/main/com.meter.wifi.awdl.
 ```
 ## Remove the scripts and renable awdl0 interface
 ```
-curl https://github.com/meterup/awdl_wifi_scripts/blob/main/cleanup-and-renenable-awdl.sh | bash > /dev/null 2>&1
+bash <(curl -s https://github.com/meterup/awdl_wifi_scripts/blob/main/cleanup-and-renenable-awdl.sh)
 ``` 
