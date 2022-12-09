@@ -21,3 +21,7 @@ in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 ```
 curl https://github.com/meterup/awdl_wifi_scripts/blob/main/com.meter.wifi.awdl.plist > /Library/LaunchDaemons/com.meter.wifi.awdl.plist; launchctl load -w /Library/LaunchDaemons/com.meter.wifi.awdl.plist
 ```
+## Remove the scripts and renable awdl0 interface
+```
+curl https://github.com/meterup/awdl_wifi_scripts/blob/main/cleanup-and-renenable-awdl.sh | bash > /dev/null 2>&1
+``` 
