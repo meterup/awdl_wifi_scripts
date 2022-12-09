@@ -6,11 +6,9 @@
 	<string>com.meter.wifi.awdl</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>ifconfig</string>
-		<string>awdl0</string>
-		<string>down</string>
+		<string>/Users/YOUR_USERNAME/disable_awdl.sh</string>
 	</array>
-        <key>StartInterval</key>
-        <integer>2</integer>
+	<key>RunAtLoad</key>
+	<true/>
 </dict>
 </plist>

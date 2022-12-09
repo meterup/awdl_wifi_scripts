@@ -17,10 +17,6 @@ in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 2. Run: 
 ```curl -sL https://www.meter.com/awdl-daemon.sh | bash```
 
-## For MDM scenario or if you want full control
-```
-curl https://github.com/meterup/awdl_wifi_scripts/blob/main/com.meter.wifi.awdl.plist > /Library/LaunchDaemons/com.meter.wifi.awdl.plist; launchctl load -w /Library/LaunchDaemons/com.meter.wifi.awdl.plist
-```
 ## Remove the scripts and renable awdl0 interface
 ```
 curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/main/cleanup-and-renenable-awdl.sh | bash &> /dev/null
