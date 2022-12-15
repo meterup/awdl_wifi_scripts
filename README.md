@@ -19,5 +19,5 @@ in order to improve WiFi connectivity for Apple M1/M2 MacBooks.
 
 ## Remove the scripts and renable awdl0 interface
 ```
-curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/main/cleanup-and-renenable-awdl.sh | bash &> /dev/null
+curl -s https://raw.githubusercontent.com/meterup/awdl_wifi_scripts/main/cleanup-and-reenenable-awdl.sh | bash &> /dev/null
 ``` 
